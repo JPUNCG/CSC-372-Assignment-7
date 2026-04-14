@@ -1,4 +1,4 @@
-# Assignment 7: Rock, Paper, Scissors X React
+# Assignment 7
 
 ## Setup Instructions
 1. Open the project directory in your terminal.
