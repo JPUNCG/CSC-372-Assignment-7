@@ -45,11 +45,11 @@ function App() {
     let timer;
 
     if (isAnimating) {
-      // Shuffle images every 200ms
+      // Shuffle images every 500ms
       interval = setInterval(() => {
         let randomIdx = Math.floor(Math.random() * choices.length);
         setComputerChoice(choices[randomIdx]);
-      }, 200);
+      }, 500);
 
       // Stop after 3 seconds
       timer = setTimeout(() => {
