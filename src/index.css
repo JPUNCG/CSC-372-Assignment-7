@@ -1,0 +1,81 @@
+/*
+Name: Jeethesh Pallinti
+Date: 04.14.2026
+CSC 372-01
+Description: Styles for the Rock, Paper, Scissors React app.
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.choice-image {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  cursor: pointer;
+  border: 4px solid transparent;
+  transition: transform 0.2s;
+}
+
+.choice-image:hover {
+  transform: scale(1.1);
+}
+
+.selected-image {
+  border-color: #007bff;
+  border-radius: 10px;
+}
+
+.score-item {
+  display: inline-block;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.result-text {
+  font-size: 1.5rem;
+  color: #d9534f;
+}
+
+#game-container {
+  padding-top: 50px;
+}
+
+#choices-list {
+  display: flex;
+  justify-content: center;
+}
+
+#placeholder {
+  font-size: 100px;
+  margin: 10px;
+  color: #ccc;
+}
+
+#reset-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
