@@ -11,4 +11,4 @@ This project uses a modular React component structure.
 
 - I broke the game into specific components to keep the code organized and readable.
 - Used the useState hook to track the user's selection, the computer's choice, and the overall score.
-- Implemented the useEffect hook with setInterval to handle the 2-second computer "shuffle" animation before revealing the final result.
+- Implemented the useEffect hook with setInterval to handle the 3-second computer "shuffle" animation before revealing the final result.
